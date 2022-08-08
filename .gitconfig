@@ -1,0 +1,8 @@
+[filter "lfs"]
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+	clean = git-lfs clean -- %f
+[user]
+	name = Jiang-Yu-0914
+	email = 2421807086@qq.com
